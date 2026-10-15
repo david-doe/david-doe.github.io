@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a1029"/><stop offset=".55" stop-color="#2b1a27"/><stop offset="1" stop-color="#1d1d27"/></linearGradient><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="#fff" stroke-opacity=".04" stroke-width="1.5"/></pattern><radialGradient id="glow"><stop offset="0" stop-color="#d9657f" stop-opacity=".32"/><stop offset=".6" stop-color="#d9657f" stop-opacity=".08"/><stop offset="1" stop-color="#d9657f" stop-opacity="0"/></radialGradient></defs><rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1100" cy="360" r="520" fill="url(#glow)"/><circle cx="420" cy="110" r="280" fill="url(#glow)" opacity=".6"/>
+<path d="M985 170L1060 200 1110 185 1150 230 1215 245 1235 300 1205 350 1225 410 1270 455 1245 520 1195 555 1120 545 1060 590 1000 560 960 500 905 470 880 400 925 360 900 300 940 250Z" fill="#8b1e3f" fill-opacity=".5" stroke="#d9657f" stroke-opacity=".7" stroke-width="5" stroke-linejoin="round"/>
+<g fill="#ffd9e2"><circle cx="1085" cy="275" r="16" fill-opacity=".7"/><circle cx="1150" cy="420" r="10" fill-opacity=".45"/><circle cx="990" cy="430" r="8" fill-opacity=".4"/><circle cx="1050" cy="520" r="12" fill-opacity=".5"/></g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1300 640H1540M1300 640V420" stroke="#ffd9e2" stroke-opacity=".3" stroke-width="4"/>
+<path d="M1320 460L1355 468 1390 490 1425 482 1460 505 1495 560 1530 580" stroke="#d9657f" stroke-opacity=".85" stroke-width="7"/>
+</g>
+<g fill="#ffd9e2" fill-opacity=".8"><circle cx="1320" cy="460" r="8"/><circle cx="1355" cy="468" r="8"/><circle cx="1390" cy="490" r="8"/><circle cx="1425" cy="482" r="10" fill="#d9657f"/><circle cx="1460" cy="505" r="8"/><circle cx="1495" cy="560" r="8"/><circle cx="1530" cy="580" r="8"/></g>
+<g fill="#ffd9e2" fill-opacity=".14"><rect x="860" y="640" width="60" height="120" rx="10"/><rect x="935" y="700" width="60" height="60" rx="10"/><rect x="1010" y="735" width="60" height="25" rx="10"/></g>
+<g fill="#d9657f" fill-opacity=".7"><rect x="860" y="660" width="60" height="100" rx="10"/><rect x="935" y="740" width="60" height="20" rx="10"/><rect x="1010" y="748" width="60" height="12" rx="10"/></g>
+</svg>
