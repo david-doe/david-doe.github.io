@@ -388,7 +388,7 @@
         g += '<line class="demo__grid" x1="' + x(v) + '" x2="' + x(v) + '" y1="18" y2="64"/><text class="demo__axis" x="' + x(v) + '" y="84" text-anchor="middle">' + esc(pct(100 * v)) + '</text>';
       });
       g += '<line x1="' + x(P.lo) + '" x2="' + x(P.hi) + '" y1="41" y2="41" stroke="' + C.blue + '" stroke-width="10" stroke-linecap="round" stroke-opacity=".45"/>' +
-        '<circle cx="' + x(P.est) + '" cy="41" r="9" fill="' + C.blue + '" stroke="#30303d" stroke-width="3"/>' +
+        '<circle cx="' + x(P.est) + '" cy="41" r="9" fill="' + C.blue + '" stroke="#2a1a45" stroke-width="3"/>' +
         '<text class="demo__val" x="' + x(P.est) + '" y="20" text-anchor="middle">' + esc(tr('This project ', 'Ce projet ') + pct(100 * P.est)) + '</text>' +
         '<line x1="' + x(P.boc) + '" x2="' + x(P.boc) + '" y1="26" y2="58" stroke="' + C.accent + '" stroke-width="3"/>' +
         '<text class="demo__marklab" x="' + x(P.boc) + '" y="72" text-anchor="middle">' + esc(tr('Bank of Canada ', 'Banque du Canada ') + pct(100 * P.boc)) + '</text>';
