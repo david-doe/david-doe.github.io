@@ -31,7 +31,7 @@ window.SITE_EN = {
     {
       slug: "prix-epicerie-canada",
       title: "What Canada's counter-tariffs cost at the grocery store",
-      date: "Aug. - Oct. 2026",
+      date: "Aug. 2026 - Present",
       kind: "Personal project",
       category: "Causal inference & forecasting",
       summary: "How much do Canadian counter-tariffs raise grocery prices, how fast, and for how long? A bilingual live app built only on public data.",
@@ -124,7 +124,7 @@ window.SITE_EN = {
     {
       slug: "projet-noz",
       title: "Running a discount store with its own data",
-      date: "Oct. 2026",
+      date: "Sep. - Oct. 2026",
       kind: "Personal project",
       category: "Data analysis & BI",
       summary: "Which batches will be sent back too early, which aisle is losing stock, and when do you need staff at the tills? A full SQL, Python and Power BI pipeline.",
@@ -176,7 +176,7 @@ window.SITE_EN = {
     {
       slug: "score-churn-telco",
       title: "Predicting customer churn at a telecom operator",
-      date: "2026",
+      date: "Apr. - May 2026",
       kind: "Academic project",
       category: "Scoring",
       summary: "Which customers are going to leave, and which levers can keep them? A churn scoring model and a report for the business.",
@@ -245,7 +245,7 @@ window.SITE_EN = {
     {
       slug: "dataviz-naissances",
       title: "Births in France in four charts",
-      date: "April 2026",
+      date: "Apr. - May 2026",
       kind: "Academic project",
       category: "Data visualisation",
       summary: "Where do children's surnames come from, where are they born, and is the birth rate really falling? Four charts built in R from INSEE data, then a Shiny app to explore each département.",

@@ -51,7 +51,7 @@ window.SITE = {
     {
       slug: "prix-epicerie-canada",
       title: "Ce que les contre-tarifs coûtent à l'épicerie au Canada",
-      date: "Août - Oct. 2026",
+      date: "Août 2026 - Présent",
       kind: "Projet personnel",
       category: "Inférence causale & prévision",
       summary: "De combien les contre-tarifs canadiens font-ils monter les prix de l'épicerie, à quelle vitesse et pour combien de temps ? Une application bilingue en ligne, fondée uniquement sur des données publiques.",
@@ -150,7 +150,7 @@ window.SITE = {
     {
       slug: "projet-noz",
       title: "Piloter un magasin discount avec ses données",
-      date: "Oct. 2026",
+      date: "Sept. - Oct. 2026",
       kind: "Projet personnel",
       category: "Data analyse & BI",
       summary: "Quels lots vont repartir trop tôt, quel rayon perd de la marchandise, et quand faut-il du monde en caisse ? Une chaîne complète SQL, Python et Power BI.",
@@ -206,7 +206,7 @@ window.SITE = {
     {
       slug: "score-churn-telco",
       title: "Prédire le départ des clients d'un opérateur télécom",
-      date: "2026",
+      date: "Avr. - Mai 2026",
       kind: "Projet académique",
       category: "Scoring",
       summary: "Quels clients vont partir, et sur quels leviers agir pour les garder ? Un modèle de score de churn et un rapport pour le métier.",
@@ -279,7 +279,7 @@ window.SITE = {
     {
       slug: "dataviz-naissances",
       title: "Les naissances en France en quatre graphiques",
-      date: "Avril 2026",
+      date: "Avr. - Mai 2026",
       kind: "Projet académique",
       category: "Datavisualisation",
       summary: "D'où vient le nom des enfants, où naissent-ils, et la natalité baisse-t-elle vraiment ? Quatre graphiques construits avec R sur les données de l'INSEE, puis une application Shiny pour explorer chaque département.",
