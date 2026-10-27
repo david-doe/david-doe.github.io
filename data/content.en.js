@@ -98,7 +98,7 @@ window.SITE_EN = {
         { type: "h2", text: "Production" },
         { type: "ul", items: [
           "Public sources only: Statistics Canada (CPI, household spending), Bank of Canada (exchange rate), UN Comtrade (imports by product), World Bank (commodity prices).",
-          "After each monthly CPI release, a scheduled task updates the data, opens a pull request and compares the price of cheese with the frozen forecast.",
+          "After each monthly CPI release, a scheduled task updates the data, runs the tests, publishes the new data to GitHub (the app redeploys itself) and compares the price of cheese with the frozen forecast.",
           "30 automated tests run on every push (GitHub Actions); the app redeploys on every merge.",
           "Every method choice is a numbered, sourced decision, in English and French.",
           "SQL queries (DuckDB) on the same tables, for ad hoc analyses."

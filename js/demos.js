@@ -9,7 +9,7 @@
 (function () {
   'use strict';
 
-  const DATA_URL = 'assets/data/canada-grocery.json?v=1';
+  const DATA_URL = 'assets/data/canada-grocery.json?v=2';
   let loading = null;
   const load = () => loading || (loading = fetch(DATA_URL).then((r) => {
     if (!r.ok) throw new Error(r.status);

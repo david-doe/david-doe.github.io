@@ -124,7 +124,7 @@ window.SITE = {
         { type: "h2", text: "Industrialisation" },
         { type: "ul", items: [
           "Sources publiques uniquement : Statistique Canada (IPC, dépenses des ménages), Banque du Canada (taux de change), UN Comtrade (importations par produit), Banque mondiale (cours des matières premières).",
-          "Après chaque publication mensuelle de l'IPC, une tâche planifiée met les données à jour, ouvre une demande de fusion et compare le prix du fromage à la prévision figée.",
+          "Après chaque publication mensuelle de l'IPC, une tâche planifiée met les données à jour, vérifie les tests, publie les nouvelles données sur GitHub (l'application se met à jour d'elle-même) et compare le prix du fromage à la prévision figée.",
           "30 tests automatiques tournent à chaque envoi de code (GitHub Actions) ; l'application se redéploie à chaque fusion.",
           "Chaque choix de méthode est une décision numérotée et sourcée, en anglais et en français.",
           "Requêtes SQL (DuckDB) sur les mêmes tables, pour des analyses ponctuelles."
