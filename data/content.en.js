@@ -87,8 +87,10 @@ window.SITE_EN = {
         ] },
         { type: "p", text: "The intervals are computed by conformal prediction: calibrated on the model's past errors, they assume no statistical distribution and their actual coverage is checked." },
         { type: "demo", demo: "forecast", title: "Demo: prices and forecasts", intro: "Pick a series. For cheese, the 2026 tariff scenarios are added to the forecast made just before them." },
-        { type: "h2", text: "Monitoring the 2026 tariffs" },
-        { type: "p", text: "The forecast made with data to August 2026, the month before the tariffs, is frozen: it is the path prices would have followed without them. Each month, observed prices are compared with it. Before turning this into an alert, the rule was replayed on past episodes: it detects nothing (2018: 4% of tariffed series flagged against 7% of untaxed ones; 2025: 14% against 15%), and its only strong signal, coffee, came from world prices. No alert is therefore shown; the rule is used only for analysis." },
+        { type: "h2", text: "Comparing prices with the forecast made before the tariffs" },
+        { type: "p", text: "The forecast made with data to August 2026, the month before the tariffs, is kept unchanged: it is the estimate of what prices would have been without them. Each month, a series is flagged if its price is above the top of its 80% interval, and we check whether tariffed series are flagged more often than the others." },
+        { type: "p", text: "Applied to past episodes, this rule does not single out tariffed series: in 2018, 4% of them are flagged against 7% of untaxed series; in 2025, 14% against 15%. This is expected: a tariff moves a CPI series by about 3 points at most, while public monthly data can only show a gap of about 5 points. The only clear gap in 2025, coffee (18% above its forecast), comes from the rise in the world price of arabica." },
+        { type: "p", text: "The app therefore shows no alert: it would almost never go off, or would go off for a reason other than the tariff. The demo above shows observed cheese prices against this forecast." },
         { type: "h2", text: "Where AI is used" },
         { type: "ul", items: [
           "Tariff-line classification (NLP): for each new list, TF-IDF, multilingual embeddings and rank fusion suggest candidate CPI series, scored against the hand-made mapping. The right series is among the top 5 suggestions in 81% of cases, and first in 44%.",
